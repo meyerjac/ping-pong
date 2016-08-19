@@ -1,7 +1,24 @@
 //this is my backend logic//
-var transform = function(input) {
-  if input = 
-}
+
+var getPingPonged = function(input) {
+  if (input <= 0 ) {
+    console.log ("please enter a positive number");
+  }
+  if (input >= 1) {
+    console.log("nice number");
+   }
+
+   var arr1 = [];
+   for (var index = 0; index <= input; index ++) {
+     arr1.push(index);
+     console.log(arr1);
+   }
+
+   alert(arr1);
+ }
+
+
+
 
 
 
@@ -9,11 +26,10 @@ var transform = function(input) {
 //this is my frontend logic//
 
 $(document).ready(function() {
-  $("#form").submit(function(event) {
-
+  $("#form1").submit(function(event) {
     event.preventDefault();
-    var input = $("#input").val
-    var result= transform(input)
-    $(".result").slideDown(result);
+    console.log("Button Clicked");
+    var input = $("#textinput").val();
+    $("#output").append(getPingPonged(input));
   });
 });
