@@ -1,26 +1,61 @@
 //this is my backend logic//
 
-var getPingPonged = function(input) {
-  if (input <= 0 ) {
-    console.log ("please enter a positive number!");
-  }
-  if (input >= 1) {
+/*This is honestly the most stuck and frusturated i've been in class so far. :/ I just don't UNDERSTAND
+the material, I can read the regex, syntax, and functions of JS, and understand jquery's place in all of this, but when I put my hands on the keyboard, they freeze.  I did figure it out but had to reference a lot of other material and my past projects, I havent referenced any HTML or CSS in like a week...JS is another story*/
+
+// Setting empty arrays
+var getPingPonged = function(number) {
+var arr1 = [];
+var arr2 = [];
+var arr3 = [];
+var arr4 = [];
+
+// This is branching and giving feedback
+
+  if (number <= 0 ) {
+    alert ("please enter a positive number!");
+}
+  if (number >= 1) {
     console.log("nice number");
-   }
-   var arr1 = [];
-   for (var index = 1; index <= input; index ++) {
-     arr1.push(index);
-     console.log(arr1);
 }
-     arr2 = [];
-     arr1.forEach(function(arr) {
-       if(arr % 3 === 0) {
-         arr = "ping";
+
+// This is setting up my array
+
+for (var index = 1; index <= number; index ++) {
+  arr1.push(index);
 }
-    arr2.push(arr);
- });
-console.log(arr2);
-};
+
+
+// Replacing 15 divisors with "ping-pong"
+  arr1.forEach(function(arr1) {
+    if(arr1 % 15 === 0) {
+      arr1 = " " + "ping-pong";
+}
+  arr2.push(arr1);
+  });
+
+// Replacing 15 divisors with "pong"
+  arr2.forEach(function(arr2) {
+    if(arr2 % 5 === 0) {
+      arr2 = " " + "pong";
+  }
+  arr3.push(arr2);
+  });
+
+// Replacing 15 divisors with "ping"
+  arr3.forEach(function(arr) {
+    if(arr % 3 === 0) {
+      arr = " " + "ping";
+}
+ arr4.push(arr);
+});
+console.log(arr4)
+
+// I have no idea why my backend wont talk to my front end and I can apply .slidedown and stuff like that  :/
+
+return(arr4);
+}
+
 
 //this is my frontend logic//
 
@@ -29,6 +64,7 @@ $(document).ready(function() {
     event.preventDefault();
     console.log("Button Clicked");
     var input = $("#textinput").val();
-    $("#output").append(getPingPonged(input));
+    var result= getPingPonged(input);
+    $(".result").text(result);
   });
 });
