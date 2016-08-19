@@ -8,25 +8,46 @@
     <meta charset="utf-8">
     <title>Ping-Pong</title>
   </head>
-  <body>
 
-    <div class="container">
-        <div class="jumbotron">
-            <form id="form1">
-              <div class="form-group">
-                <label for="input-box">Please enter a positive number.</label>
-                <input id="textinput" type="text">
-                <button type="submit" class="btn btn-success" name="button">Submit!</button>
-              <!-- <input type="button" class= "btn btn-danger" value="Reset Form" onClick="this.form.reset()"/> -->
-              </div>
-            </form>
-            <p>
-              this is your answer:
-            </p>
-          <div class="result">
-          </div>
+  <body>
+    <div class="jumbotron">
+      <h1>Ping-Pong</h1>
+    </div>
+      <div class="row">
+        <div class="col-md-2">
+          <h3>About Ping Pong</h3>
+          <p class="yellow">Created by:</p>
+          <p class="white">Jackson Meyer</p>
+          <p class="yellow">Github Username/URL:</p>
+          <p class="white">
+          <p id=blue>meyerjac</p>
+          <p class="yellow">Level 1 Test for:</p>
+          <p class="white">3rd week code review - Arrays and looping.</p>
         </div>
-      </div>      
+        <div class="col-md-5">
+          <h2>Lets Play!</h2>
+          <h3>Rules</h3>
+          <h5>Ping pong will count up to your number from 1, with the following exceptions:</h5>
+          <ol>
+            <li>Numbers divisible by 3 become "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 3 and 5 become "ping-pong"</li>
+          </ol>
+          <form id="form1">
+            <div class="form-group">
+              <label for="input-box">Please enter a positive number.</label>
+              <input id="textinput" type="text">
+              <button type="submit" class="btn btn-success" name="button"> Submit! </button>
+              <p>
+                this is your answer:
+              </p>
+              <p class="result"></p>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-3">
+          <img src="img/ping.jpg" alt="ping pong picture" >
+      </div>
     </div>
   </body>
 </html>

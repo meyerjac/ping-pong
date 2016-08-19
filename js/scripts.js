@@ -8,7 +8,7 @@ var getPingPonged = function(number) {
 var arr1 = [];
 var arr2 = [];
 var arr3 = [];
-var arr4 = [];
+arr4 = [];
 
 // This is branching and giving feedback
 
@@ -49,11 +49,7 @@ for (var index = 1; index <= number; index ++) {
 }
  arr4.push(arr);
 });
-console.log(arr4)
 
-// I have no idea why my backend wont talk to my front end and I can apply .slidedown and stuff like that  :/
-
-return(arr4);
 }
 
 
@@ -65,6 +61,6 @@ $(document).ready(function() {
     console.log("Button Clicked");
     var input = $("#textinput").val();
     var result= getPingPonged(input);
-    $(".result").text(result);
+    $(".result").text(arr4);
   });
 });

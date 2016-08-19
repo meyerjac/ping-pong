@@ -1,5 +1,31 @@
+h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
 .jumbotron {
-  margin-top: 30px;
-  padding-top: 30px;
-  background-color: #559977;
+max-width: 100%;
+background-color: #f9d7b4;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+.col-md-2 {
+  padding-left: 30px;
+  background-color: #79d279;
+  padding-bottom: 200px;
+}
+
+.yellow {
+  color: #f9d7b4;
+}
+
+.white {
+  color:  #f2f2f2;
+}
+
+#blue {
+  color: blue;
 }
