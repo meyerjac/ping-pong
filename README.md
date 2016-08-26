@@ -2,15 +2,15 @@
 
 #### This Ping-Pong project will manipulate user input, 8/18/16
 
-#### By Jackson Meyer
+#### By Jackson Meyer, 8/25/2016
 
 ## Description
 
-The purpose of this app is to take a number input from a user and manipulate it based on a set of commands and then return the number as a string with certain numbers removed.  It is to show an understanding for the backend and frontend logic
+The purpose of this app is to take a any number from user input and manipulate it based on a set of commands and then return the number as a string with certain numbers removed.  It is to show an understanding for the backend and front-end logic.
 
 ## Setup/Installation Requirements
 
-* This is a web application, just open the index file in current browser window.  Also a link of our project can be found here:
+* This is a web application, just open the index file in current browser window.  Also a link of our project can be found here: https://meyerjac.github.io/ping-pong/
 
 ## Known Bugs
 
@@ -56,7 +56,7 @@ After we already got a response, be able to enter a new number and have the old 
 
 ## Support and contact details
 
-If you run into problems with solving this issue please contact me at [Jackson Meyer] (mailto:jacksonmeyer7@gmail.com)
+If you run into problems with this application, please contact me at jackson.meyer7@gmail.com.
 
 ## Technologies Used
 
@@ -70,4 +70,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Copyright (c) 2016 Jackson meyer
+Copyright (c) 2016 Jackson Meyer
