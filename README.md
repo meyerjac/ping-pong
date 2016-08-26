@@ -18,33 +18,33 @@ There are no known bugs with this application.
 
 ##Specifications
 
-Rule:
-return an string/array of numbers from 1 to the input.
+_Rule:_
+_return an string/array of numbers from 1 to the input._
   Example Input: 4
   Example Output: [1,2,3,4]
 
-Rule:
-when a non-numerical input is read, the application will alerting user to enter a number.
+_Rule:_
+_when a non-numerical input is read, the application will_ alerting user to enter a number.
   Example Input: "I cant wait!"
   Example Output: "Please enter a number!"
 
-Rule:
-The application will replace numbers that are divisible by 3 with the word "ping"
+_Rule:_
+_The application will replace numbers that are divisible by 3 with the word "ping"_
   Example Input: 6
   Example Output: 1, 2, "ping", 4, 5, "ping"
 
-Rule:
-The application will replace numbers that are divisible by 5 with the word "pong"
+_Rule:_
+_The application will replace numbers that are divisible by 5 with the word "pong"_
   Example Input: 6
   Example Output: 1, 2, "ping", 4, "pong", "ping"
 
-Rule:
-After the number is inputted, submitted, and returned as an array of numbers, it will replace numbers that are divisible by 15 with the word "ping-pong"
+_Rule:_
+_After the number is inputted, submitted, and returned as an array of numbers, it will replace numbers that are divisible by 15 with the word "ping-pong"_
   Example Input: 16
   Example Output: 1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong", 11, "ping", 13, 14, "ping-pong", 16.
 
-Rule:
-Be able to enter a new number and have the old one go away.
+_Rule:_
+_Be able to enter a new number and have the old one go away._
   Example previous output: [1, 2, 3, 4, 5, 6]
   New Example Input: 3
   New Example Output: 1, 2, "ping"
