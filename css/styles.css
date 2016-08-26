@@ -18,6 +18,8 @@ background-color: #f9d7b4;
 }
 
 .col-md-2 {
+  margin: 10px;
+  border: 15px;
   padding-left: 30px;
   background-color: #79d279;
   padding-bottom: 200px;
