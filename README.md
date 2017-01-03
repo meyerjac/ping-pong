@@ -1,6 +1,6 @@
 # Ping-Pong-Project
 
-#### This project will input and return a fun list of numbers and words based on input!  8/18/16
+#### This project demonstrates knowledge of JS looping/arrays, input a number and get a fun response!  8/18/16
 
 #### By Jackson Meyer, 8/25/2016
 
